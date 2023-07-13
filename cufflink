@@ -1,0 +1,1 @@
+ls rawdata/*fq | while read id; do nohup fastqc -o ~/lailingling/fastqc/ -q -t 2 $id & done
